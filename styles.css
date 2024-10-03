@@ -95,10 +95,45 @@ h1.temp {
   border-radius: 10px;
 }
 
-a {
+/* a {
   margin-top: 7%;
   color: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  font-size: 1.2em;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+footer a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 2px;
+}
+
+footer a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+  transition: 0.3s ease-out;
+}
+
+footer a:hover::after {
+  left: 0%;
+  width: 100%;
 }
