@@ -2,7 +2,7 @@
 
 Este é o Aplicativo Clima-Web, uma página de status do tempo desenvolvido utilizando a API OpenWeatherMap. Neste aplicativo, criei uma página simples e responsiva que permite aos usuários buscar a previsão do tempo de uma cidade e exibe informações como temperatura, velocidade do vento e condiçoes do céu.
 
-<img src="https://github.com/VictorLins11/Aplicativo-Clima/images/Captura_de_tela.png">
+![screenshot] (https://github.com/VictorLins11/Aplicativo-Clima/tree/main/images/Captura_de_tela.png)
 
 ## Descrição do Aplicativo
 
